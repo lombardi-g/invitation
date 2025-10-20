@@ -15,6 +15,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
 
+    <!-- Titulo -->
+    <title>Gabriel & Raíssa - Casamento</title>
+
+    <!-- Imagem na aba -->
+    <link rel="shortcut icon" href="img/cheers.png">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/scroller.css">
+    <link rel="stylesheet" href="css/header.css">
+
 </head>
 <body>
     <section id="header">
@@ -28,23 +39,53 @@
     </section>
 
     <section id="intro">
-
+        <img src="img/altar2.png" alt="">
+        <img id="wedding-logo" src="img/bouquet.jpeg" alt="">
+        <div id="wedding-info">
+            <span id="names">Gabriel & Raíssa</span>
+            <span id="event-date">04/07/2026</span>
+        </div>
     </section>
 
     <section id="date-information">
-
+        <span>Contagem regressiva</span>
+        <p id="countdown-clock"></p>
     </section>
 
     <section id="RSVP">
-
+        <div id="RSVP-text-container">
+            <span>Confirmar presença</span>
+            <p><br>Favor confirmar presença<br>pelo Whatsapp</p>
+            <p><br>(51) 99763-3512</p>
+        </div>
+        <img src="img/RSVP-letter.png" alt="RSVP">
     </section>
 
     <section id="dress-code">
-
+        <img src="img/dress.png" alt="">
+        <div id="dress-code-text">
+            <span>Traje social</span>
+            
+            <p><br>Gravata opcional</p>
+            <p>Cores livre</p>
+            <p>texto texto</p>
+        </div>
+        <img src="img/suit.png" alt="">
     </section>
 
     <section id="location">
-
+    <div id="location">
+        <img id="map" src="img/map-here.png" alt="">
+        <div id="location-text-container">
+            <h3>Local</h3>
+            <img id="logo-alto-lagoa" src="img/alto-lagoa-crop.png" alt="Casa Alto Lagoa">
+            <p><br>Endereço <br>Rod. Admar Gonzaga, 4720<br>Lagoa da Conceição<br>Florianópolis - SC</p>
+            <p><br>Estacionamento no local</p>
+            <p>
+                <img class="text-icons" src="img/exclamation.png" alt="">
+                Recomendamos transporte por aplicativo,<br> assim podemos aproveitar sem preocupações
+            </p>
+        </div>
     </section>
 
     <div class="container" id="gifts-menu">
@@ -176,6 +217,10 @@
             </div>
         </div>
     </div>
+
+<script src="js/countdown.js"></script>
+<script src="js/scroller.js"></script>
+<script src="js/headerbuttons.js"></script>
 
 </body>
 </html>

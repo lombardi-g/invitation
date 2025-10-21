@@ -1,0 +1,205 @@
+ * {
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background-color: #fffff2;
+}
+
+#intro {
+  min-height: 428px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 96vh;
+}
+
+#intro img{
+  left: 0;
+  max-width: 428px;
+  max-height: 433px;
+  border-radius: 0 10% 20% 0;
+  filter: sepia(80%);
+  box-shadow: 0 0 8px 8px white inset;
+}
+
+#wedding-logo{
+  display: none;
+}
+
+#wedding-info{
+display: grid;
+padding-right: 8vw;
+/* justify-content: center; */
+text-align: center;
+/* align-items: center; */
+}
+
+#names{
+    /* display: flex; */
+    font-family: "Rouge Script", cursive;
+    font-size: 250%;
+    margin: 50px 0 50px 0;
+}
+
+#event-date{
+    /* display: flex; */
+    font-family: "Rouge Script",cursive;
+    font-size: 290%;
+}
+
+#gifts-menu{
+    padding-top: 8px;
+    background-color: #d4d4a7;
+}
+
+#date-information{
+display: grid;
+justify-content: center;
+background-color: antiquewhite;
+padding-top: 1rem;
+}
+
+
+#countdown-clock{
+    display: flex;
+    justify-content: center;
+  font-family: "Electrolize", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(255, 195, 127);
+    padding: 5px 1px 5px 1px;
+    border-radius: 0.8em;
+}
+
+#RSVP{
+display: flex;
+justify-content: space-around;
+padding: 3rem 1rem 3rem 1rem;
+}
+
+#RSVP-text-container{
+text-align: justify;
+}
+
+#RSVP img{
+  width: 5rem;
+  object-fit: contain;
+}
+
+#RSVP-text-container span{font-weight: 700;}
+#RSVP-text-container p{font-weight: 500;}
+
+#dress-code{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+#dress-code img{
+  /* background-color: white; */
+  max-width: 18vw;
+  object-fit: contain;
+}
+
+#dress-code-text{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+#dress-code span{
+  font-size: larger;
+}
+
+#dress-code p{
+  font-size: large;
+}
+
+#location{
+display: flex;
+margin: 20px 10px 20px 10px;
+}
+
+#logo-alto-lagoa{filter: brightness(0%)}
+
+#map{
+  width: 65vw;
+  /* border-color: black; */
+  border: 2px solid rgb(17, 49, 9);
+  object-fit: cover;
+}
+
+#location-text-container{
+display: inline-table;
+margin-left: 5px;
+}
+
+.text-icons{
+  object-fit: contain;
+  max-width: 1.05rem;
+  stroke-width: 30px;
+  stroke: black;
+}
+
+@media screen and (max-width: 427px) {
+  #intro{
+    display: block;
+    align-items: center;
+    align-content: space-around;
+  }
+  #intro img{
+    width: 100vw;
+    margin-top: 10vh;
+
+    /* side-by-side configuration */
+        /* width: 180px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 100% 50%;
+    overflow-x: hidden; */
+  }
+  #names{font-size: 195%; text-align: center;}
+  #event-date{font-size: 250%;}
+  #wedding-info{padding-right: 8px; text-align: center;} 
+  #location{display: block;}
+  #map{width: 93vw}
+  #location-text-container{text-align: center;display: block;}
+}
+
+@media screen and (min-width:430px) and (max-width: 513px) {
+#intro img{
+    width: 280px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 100% 50%;
+    /* overflow-x: hidden; */
+}
+#names{font-size: 160%;}
+#event-date{font-size: 180%;}
+#wedding-info{padding-right: 9px;}
+#location{display: block;}
+#map{width: 93vw}
+#location-text-container{text-align: center;display: block;}
+}
+
+@media screen and (min-width:514px) and (max-width: 671px) {
+#intro img{max-width: 328px;}
+#names{font-size: 180%;}
+#event-date{font-size: 200%;}
+#location{display: block;}
+#map{width: 93vw}
+#location-text-container{text-align: center;display: block;}
+}
+
+@media screen and (min-width: 1200px) {
+  #wedding-logo{
+    display: flex;
+  } 
+}

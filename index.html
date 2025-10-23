@@ -11,9 +11,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Electrolize&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- Titulo -->
     <title>Gabriel & Raíssa - Casamento</title>
@@ -39,16 +41,16 @@
     </section>
 
     <section id="intro">
-        <img src="img/altar2.png" alt="">
-        <img id="wedding-logo" src="img/bouquet.jpeg" alt="">
+        <img src="img/logo-transp-crop.png" alt="">
+        <!-- <img id="wedding-logo" src="img/bouquet.jpeg" alt=""> -->
         <div id="wedding-info">
-            <span id="names">Gabriel & Raíssa</span>
-            <span id="event-date">04/07/2026</span>
+            <span id="names">Gabriel e Raíssa</span>
+            <span id="event-date">04 | 07 | 2026</span>
         </div>
     </section>
 
     <section id="date-information">
-        <span>Contagem regressiva</span>
+        <span>Contagem regressiva!</span>
         <p id="countdown-clock"></p>
     </section>
 
@@ -56,9 +58,10 @@
         <div id="RSVP-text-container">
             <span>Confirmar presença</span>
             <p><br>Favor confirmar presença<br>pelo Whatsapp</p>
-            <p><br>(51) 99763-3512</p>
+            
+            <p><br><img id="whatsapp" src="img/whatsapp.svg" alt=""> (51) 99763-3512</p>
         </div>
-        <img src="img/RSVP-letter.png" alt="RSVP">
+        <img id="RSVP-image" src="img/RSVP-letter.png" alt="RSVP">
     </section>
 
     <section id="dress-code">
@@ -66,9 +69,9 @@
         <div id="dress-code-text">
             <span>Traje social</span>
             
-            <p><br>Gravata opcional</p>
-            <p>Cores livre</p>
-            <p>texto texto</p>
+            <p><br>Traje formal</p>
+            <p>Mas nada de pretinho básico</p>
+            <p>dessa vez!</p>
         </div>
         <img src="img/suit.png" alt="">
     </section>
@@ -80,8 +83,15 @@
             <h3>Local</h3>
             <img id="logo-alto-lagoa" src="img/alto-lagoa-crop.png" alt="Casa Alto Lagoa">
             <p><br>Endereço <br>Rod. Admar Gonzaga, 4720<br>Lagoa da Conceição<br>Florianópolis - SC</p>
-            <p><br>Estacionamento no local</p>
+            
             <p>
+                <br><img class="text-icons" src="img/googlemaps.svg" alt="">
+                <a href="https://maps.app.goo.gl/gNaT2Vt1hJkHsh3V6">Google Maps</a>
+            </p>
+
+            <p><br>Estacionamento no local!</p>
+            <p>
+                <br>
                 <img class="text-icons" src="img/exclamation.png" alt="">
                 Recomendamos transporte por aplicativo,<br> assim podemos aproveitar sem preocupações
             </p>
@@ -91,7 +101,7 @@
     <div class="container" id="gifts-menu">
         <div class="top-bar">
             <h2>
-                <img src="img/gift.svg" alt="">
+                <img id="gift-box-image" src="img/gift.svg" alt="">
                 Lista de presentes
             </h2>
 
@@ -135,11 +145,13 @@
 
                 </div>
                 <div class="page" id="page2">
-                <img src="img/qrcode_100.png" alt="pix:gabriellomba@gmail.com">
+                <img class="pix-code" src="img/qrcode_100.png" alt="pix:gabriellomba@gmail.com">
+                <div class="product__title">Pix</div>
+                <div class="product__description">gabriellomba@gmail.com</div>                
                 <div class="product__buttons">
                         <button class="product__button product__button--primary" onclick="flipCard()">
                             <!-- <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-shopping-cart"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M17 17h-11v-14h-2" /><path d="M6 5l14 1l-1 7h-13" /></svg> -->
-                            Add to Cart
+                            Retornar
                         </button></div>
                 </div>
 
@@ -217,6 +229,12 @@
             </div>
         </div>
     </div>
+
+    <footer>
+        <img src="img/logo-transp-crop.png" alt="">
+        Aguardamos vocês!
+        <img src="img/logo-transp-crop.png" alt="">
+    </footer>
 
 <script src="js/countdown.js"></script>
 <script src="js/scroller.js"></script>

@@ -1,0 +1,72 @@
+:root {
+    --selected-background: #252522;
+    --background-shadow: #4d4d4a;
+}
+
+#header{
+    padding: 10px;
+    background-color: var(--selected-background);
+    display: flex;
+    justify-content: space-between;
+    max-height: 45px;
+    border-bottom: 1px solid rgb(77, 31, 0);
+}
+
+#couple-logo{
+    display: flex;
+    align-items: center;
+    font-family: "Allura", cursive;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #ffffff
+}
+
+#couple-logo:hover{
+    cursor: default;
+}
+
+#navigation-buttons{
+    /* justify-content: end; */
+    /* align-items: center; */
+    display: flex;
+}
+
+.menu-button{
+    color: #ffffff;
+    background-color: var(--selected-background);
+    /* border: 10px; */
+    /* padding-bottom: 3rem; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 0.8rem;
+    /* margin-bottom: 10px; */
+    /* max-width: 80px;
+    max-height: 30px; */
+    /* border-radius: 100px; */
+    text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 15px;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+  background-color: var(--background-shadow);
+  padding-top: 0.8rem;
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+.menu-button{
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    font-size: small;
+}
+}
+@media screen and (max-width: 610px) {
+.menu-button{
+    font-size: small;
+}
+}

@@ -1,19 +1,19 @@
  * {
-  font-family: "Parkinsans", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Montserrat";
+  /* font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  font-style: normal; */
 }
 
 body {
-    background-color: #fffff2;
-}
+    background-color: #f9f9f9;
+  }
 
 #intro {
   min-height: 428px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 96vh;
 }
 
@@ -21,9 +21,10 @@ body {
   left: 0;
   max-width: 428px;
   max-height: 433px;
-  border-radius: 0 10% 20% 0;
-  filter: sepia(80%);
-  box-shadow: 0 0 8px 8px white inset;
+  /* border-radius: 0 10% 20% 0; */
+  /* filter: sepia(80%); */
+  /* box-shadow: 0 0 8px 8px white inset; */
+  object-fit: contain;
 }
 
 #wedding-logo{
@@ -40,28 +41,32 @@ text-align: center;
 
 #names{
     /* display: flex; */
-    font-family: "Rouge Script", cursive;
+    font-family: "Allura", cursive;
     font-size: 250%;
     margin: 50px 0 50px 0;
+    letter-spacing: 0.2rem;
 }
 
 #event-date{
     /* display: flex; */
-    font-family: "Rouge Script",cursive;
-    font-size: 290%;
+    /* font-family: "Allura",cursive; */
+    font-size: 180%;
+    /* letter-spacing: 0.3rem; */
 }
 
 #gifts-menu{
     padding-top: 8px;
-    background-color: #d4d4a7;
+    background-color: #636363;
 }
 
 #date-information{
 display: grid;
 justify-content: center;
-background-color: antiquewhite;
+background-color: #575555;
 padding-top: 1rem;
 }
+
+#date-information span{color: white;}
 
 
 #countdown-clock{
@@ -72,7 +77,7 @@ padding-top: 1rem;
   font-style: normal;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: rgb(255, 195, 127);
+    background-color: #fffff4;
     padding: 5px 1px 5px 1px;
     border-radius: 0.8em;
 }
@@ -87,23 +92,31 @@ padding: 3rem 1rem 3rem 1rem;
 text-align: justify;
 }
 
-#RSVP img{
+#RSVP-image{
   width: 5rem;
   object-fit: contain;
+}
+
+#whatsapp{
+  object-fit: contain;
+  height: 1em;
 }
 
 #RSVP-text-container span{font-weight: 700;}
 #RSVP-text-container p{font-weight: 500;}
 
 #dress-code{
-  background-color: antiquewhite;
+  background-color: #575555;
   display: flex;
   justify-content: space-around;
   padding: 1rem;
 }
 
+#dress-code span{color: white;text-shadow: 2px 2px 2px black}
+#dress-code p{color: white;}
+
 #dress-code img{
-  /* background-color: white; */
+  /* turn white */ filter: invert();
   max-width: 18vw;
   object-fit: contain;
 }
@@ -148,7 +161,20 @@ margin-left: 5px;
   stroke: black;
 }
 
-@media screen and (max-width: 427px) {
+footer {
+  display: flex;
+  padding: 2.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+footer img{
+  height: 6rem;
+  filter: sepia(70%);
+  padding: 0 30px 0 30px;
+}
+
+@media screen and (max-width: 429px) {
   #intro{
     display: block;
     align-items: center;
@@ -166,7 +192,7 @@ margin-left: 5px;
     overflow-x: hidden; */
   }
   #names{font-size: 195%; text-align: center;}
-  #event-date{font-size: 250%;}
+  #event-date{font-size: 180%;}
   #wedding-info{padding-right: 8px; text-align: center;} 
   #location{display: block;}
   #map{width: 93vw}
@@ -175,14 +201,14 @@ margin-left: 5px;
 
 @media screen and (min-width:430px) and (max-width: 513px) {
 #intro img{
-    width: 280px;
-    height: 400px;
-    object-fit: cover;
+    /* width: 260px; */
+    height: 352px;
+    object-fit: contain;
     object-position: 100% 50%;
     /* overflow-x: hidden; */
 }
 #names{font-size: 160%;}
-#event-date{font-size: 180%;}
+#event-date{font-size: 150%;}
 #wedding-info{padding-right: 9px;}
 #location{display: block;}
 #map{width: 93vw}
@@ -190,16 +216,10 @@ margin-left: 5px;
 }
 
 @media screen and (min-width:514px) and (max-width: 671px) {
-#intro img{max-width: 328px;}
+#intro img{height: 400px}
 #names{font-size: 180%;}
-#event-date{font-size: 200%;}
+#event-date{font-size: 170%;}
 #location{display: block;}
 #map{width: 93vw}
 #location-text-container{text-align: center;display: block;}
-}
-
-@media screen and (min-width: 1200px) {
-  #wedding-logo{
-    display: flex;
-  } 
 }

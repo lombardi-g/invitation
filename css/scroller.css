@@ -213,6 +213,7 @@
   padding: 2rem;
   border-radius: 0.75rem;
   background: #f9f9f9;
+  max-width: 320px;
 }
 
 .product__image img {

@@ -34,13 +34,10 @@ body {
 #wedding-info{
 display: grid;
 padding-right: 8vw;
-/* justify-content: center; */
 text-align: center;
-/* align-items: center; */
 }
 
 #names{
-    /* display: flex; */
     font-family: "Allura", cursive;
     font-size: 250%;
     margin: 50px 0 50px 0;
@@ -48,10 +45,7 @@ text-align: center;
 }
 
 #event-date{
-    /* display: flex; */
-    /* font-family: "Allura",cursive; */
     font-size: 180%;
-    /* letter-spacing: 0.3rem; */
 }
 
 #gifts-menu{

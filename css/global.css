@@ -121,13 +121,8 @@ text-align: justify;
   justify-items: center;
 }
 
-#dress-code span{
-  font-size: larger;
-}
-
-#dress-code p{
-  font-size: large;
-}
+#dress-code span{font-size: larger;}
+#dress-code p{font-size: large;}
 
 #location{
 display: flex;

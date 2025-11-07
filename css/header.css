@@ -60,9 +60,11 @@
 
 @media screen and (max-width: 480px) {
 .menu-button{
-    padding-left: 0.1rem;
-    padding-right: 0.1rem;
-    font-size: small;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    margin-right: 0.001rem;
+    background-color: #ffffff00;
+    border-right: 2px  solid gray
 }
 }
 @media screen and (max-width: 610px) {

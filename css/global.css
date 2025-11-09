@@ -5,9 +5,7 @@
   font-style: normal; */
 }
 
-body {
-    background-color: #f9f9f9;
-  }
+body {background-color: #f9f9f9}
 
 #intro {
   min-height: 428px;
@@ -27,9 +25,7 @@ body {
   object-fit: contain;
 }
 
-#wedding-logo{
-  display: none;
-}
+#wedding-logo{display: none;}
 
 #wedding-info{
 display: grid;
@@ -44,9 +40,7 @@ text-align: center;
     letter-spacing: 0.2rem;
 }
 
-#event-date{
-    font-size: 180%;
-}
+#event-date{font-size: 180%}
 
 #gifts-menu{
     padding-top: 8px;
@@ -61,7 +55,6 @@ padding-top: 1rem;
 }
 
 #date-information span{color: white;}
-
 
 #countdown-clock{
     display: flex;
@@ -82,9 +75,7 @@ justify-content: space-around;
 padding: 3rem 1rem 3rem 1rem;
 }
 
-#RSVP-text-container{
-text-align: justify;
-}
+#RSVP-text-container{text-align: justify}
 
 #RSVP-image{
   width: 5rem;

@@ -84,7 +84,11 @@ padding: 3rem 1rem 3rem 1rem;
 
 #whatsapp{
   object-fit: contain;
-  height: 1em;
+  height: 3rem;
+  background-color: #25D366;
+  border-radius: 1rem;
+  padding: 0.7rem;
+  filter: brightness(0);
 }
 
 #RSVP-text-container span{font-weight: 700;}
@@ -118,12 +122,14 @@ padding: 3rem 1rem 3rem 1rem;
 #location{
 display: flex;
 margin: 20px 10px 20px 10px;
+justify-content: space-evenly;
 }
 
 #logo-alto-lagoa{filter: brightness(0%)}
 
 #map{
-  width: 65vw;
+  max-width: 480px;
+  /* max-width: 65vw; */
   /* border-color: black; */
   border: 2px solid rgb(17, 49, 9);
   object-fit: cover;
@@ -132,6 +138,8 @@ margin: 20px 10px 20px 10px;
 #location-text-container{
 display: inline-table;
 margin-left: 5px;
+margin-top: auto;
+margin-bottom: auto;
 }
 
 .text-icons{

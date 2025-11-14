@@ -150,7 +150,7 @@ margin-bottom: auto;
 }
 
 footer {
-  display: flex;
+  display: grid;
   padding: 2.2rem;
   align-items: center;
   justify-content: center;

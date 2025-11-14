@@ -158,8 +158,8 @@ footer {
 }
 
 footer img{
-  height: 6rem;
-  filter: sepia(70%);
+  height: 35px;
+  /*filter: sepia(70%);*/
   padding: 0 30px 0 30px;
 }
 

@@ -88,7 +88,7 @@ padding: 3rem 1rem 3rem 1rem;
   background-color: #25D366;
   border-radius: 1rem;
   padding: 0.7rem;
-  filter: brightness(0);
+  /*filter: brightness(0);*/
 }
 
 #RSVP-text-container span{font-weight: 700;}

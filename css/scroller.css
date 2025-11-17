@@ -187,12 +187,12 @@
 } 
 
 
-#page1, #page3, #page5, #page7, #page9{
+#page1, #page3, #page5, #page7, #page9, #page11{
     overflow: hidden;
     backface-visibility: hidden;
 }
 
-#page2, #page4, #page6, #page8, #page10{
+#page2, #page4, #page6, #page8, #page10, #page12{
     transform: rotateY(180deg);
     backface-visibility: hidden;
     position: absolute;
@@ -201,7 +201,7 @@
     flex-direction: column;
     text-align: center; */
 }
-#page2 img, #page4 img, #page6 img, #page8 img, #page10 img{
+#page2 img, #page4 img, #page6 img, #page8 img, #page10, #page12 img{
     height: 320px;
     object-fit: contain;
 }

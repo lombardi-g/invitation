@@ -140,3 +140,7 @@ function flipCard5() {
     page10.style.transform = "";
   }
 }
+
+function copyText() {
+
+} 

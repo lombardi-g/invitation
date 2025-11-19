@@ -40,13 +40,13 @@
 }
 
 .top-bar h2 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    line-height: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 750;
+    line-height: 1.8rem;
     color: white;
 }
 
-#gift-box-image {filter: invert()}
+#gift-box-image {filter: invert(); padding-left: 8px}
 
 .top-bar svg {
     color: var(--headline-color);
@@ -201,7 +201,7 @@
     flex-direction: column;
     text-align: center; */
 }
-#page2 img, #page4 img, #page6 img, #page8 img, #page10, #page12 img{
+#page2 img, #page4 img, #page6 img, #page8 img, #page10 img, #page12 img{
     height: 320px;
     object-fit: contain;
 }

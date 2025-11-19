@@ -47,6 +47,8 @@ text-align: center;
     background-color: #636363;
 }
 
+#gifts-explanation{font-size: medium}
+
 #date-information{
 display: grid;
 justify-content: center;

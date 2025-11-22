@@ -141,6 +141,19 @@ function flipCard5() {
   }
 }
 
+function flipCard6() {
+  const page11 = document.getElementById("page11");
+  const page12 = document.getElementById("page12");
+
+  if (page11.style.transform === "") {
+      page11.style.transform = "rotateY(-180deg)";
+      page12.style.transform = "rotateY(0deg)";
+  } else {
+    page11.style.transform = "";
+    page12.style.transform = "";
+  }
+}
+
 function copyText() {
 
 } 

@@ -181,7 +181,7 @@ function flipCard8() {
 }
 
 function copyText() {
-  navigator.clipboard.writeText("testeee")
+  navigator.clipboard.writeText("gabriellomba@gmail.com")
     .then(() => alert("Pix copiado"))
     .catch(err => alert("Erro ao copiar: " + err));
 }

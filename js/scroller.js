@@ -181,5 +181,7 @@ function flipCard8() {
 }
 
 function copyText() {
-
-} 
+  navigator.clipboard.writeText("testeee")
+    .then(() => alert("Pix copiado"))
+    .catch(err => alert("Erro ao copiar: " + err));
+}

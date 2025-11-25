@@ -187,12 +187,12 @@
 } 
 
 
-#page1, #page3, #page5, #page7, #page9, #page11{
+#page1, #page3, #page5, #page7, #page9, #page11, #page13, #page15{
     overflow: hidden;
     backface-visibility: hidden;
 }
 
-#page2, #page4, #page6, #page8, #page10, #page12{
+#page2, #page4, #page6, #page8, #page10, #page12, #page14, #page16{
     transform: rotateY(180deg);
     backface-visibility: hidden;
     position: absolute;
@@ -201,7 +201,7 @@
     flex-direction: column;
     text-align: center; */
 }
-#page2 img, #page4 img, #page6 img, #page8 img, #page10 img, #page12 img{
+#page2 img, #page4 img, #page6 img, #page8 img, #page10 img, #page12 img, #page14 img, #page16 img{
     height: 320px;
     object-fit: contain;
 }

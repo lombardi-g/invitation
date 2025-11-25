@@ -154,6 +154,32 @@ function flipCard6() {
   }
 }
 
+function flipCard7() {
+  const page13 = document.getElementById("page13");
+  const page14 = document.getElementById("page14");
+
+  if (page13.style.transform === "") {
+      page13.style.transform = "rotateY(-180deg)";
+      page14.style.transform = "rotateY(0deg)";
+  } else {
+    page13.style.transform = "";
+    page14.style.transform = "";
+  }
+}
+
+function flipCard8() {
+  const page15 = document.getElementById("page15");
+  const page16 = document.getElementById("page16");
+
+  if (page15.style.transform === "") {
+      page15.style.transform = "rotateY(-180deg)";
+      page16.style.transform = "rotateY(0deg)";
+  } else {
+    page15.style.transform = "";
+    page16.style.transform = "";
+  }
+}
+
 function copyText() {
 
 } 

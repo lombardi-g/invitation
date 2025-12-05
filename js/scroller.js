@@ -180,6 +180,19 @@ function flipCard8() {
   }
 }
 
+function flipCard9() {
+  const page17 = document.getElementById("page17");
+  const page18 = document.getElementById("page18");
+
+  if (page17.style.transform === "") {
+      page17.style.transform = "rotateY(-180deg)";
+      page18.style.transform = "rotateY(0deg)";
+  } else {
+    page17.style.transform = "";
+    page18.style.transform = "";
+  }
+}
+
 function copyText() {
   navigator.clipboard.writeText("gabriellomba@gmail.com")
     .then(() => alert("Pix copiado"))

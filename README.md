@@ -1,3 +1,9 @@
+<p align="center">
+  <a href = "https://gabriel-raissa.vercel.app/">
+  <img alt="wedding-logo" height="180" src="img/logo-transp-crop.png">
+  </a>
+</p>
+
 # 💍Gabriel and Raíssa
 
 Files for the website of my wedding.
@@ -12,3 +18,4 @@ Fully developed in Vanilla JS
 <a href="https://vercel.com/">
 <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white">
 </a>
+

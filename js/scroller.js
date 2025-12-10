@@ -206,6 +206,19 @@ function flipCard10() {
   }
 }
 
+function flipCard11() {
+  const page21 = document.getElementById("page21");
+  const page22 = document.getElementById("page22");
+
+  if (page21.style.transform === "") {
+      page21.style.transform = "rotateY(-180deg)";
+      page22.style.transform = "rotateY(0deg)";
+  } else {
+    page21.style.transform = "";
+    page22.style.transform = "";
+  }
+}
+
 function copyText() {
   navigator.clipboard.writeText("gabriellomba@gmail.com")
     .then(() => alert("Pix copiado"))

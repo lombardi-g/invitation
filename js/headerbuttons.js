@@ -1,37 +1,53 @@
-let introHeight = document.getElementById('intro').offsetHeight + document.getElementById('date-information').offsetHeight + document.getElementById('header').offsetHeight;
-let dressHeight = document.getElementById('RSVP').offsetHeight + introHeight;
-let locationHeight = document.getElementById('dress-code').offsetHeight + dressHeight;
-let giftsHeight = document.getElementById('gifts-menu').offsetHeight + locationHeight;
+// let introHeight = document.getElementById('intro').offsetHeight + document.getElementById('date-information').offsetHeight + document.getElementById('header').offsetHeight;
+// let dressHeight = document.getElementById('RSVP').offsetHeight + introHeight;
+// let locationHeight = document.getElementById('dress-code').offsetHeight + dressHeight;
+// let giftsHeight = document.getElementById('gifts-menu').offsetHeight + locationHeight;
 
-document.getElementById('RSVP-button').addEventListener('click',function(){
-  window.scrollTo({
-    top:introHeight,
-    behavior: 'smooth'});
-  // console.log(introHeight)
-});
+// document.getElementById('RSVP-button').addEventListener('click',function(){
+//   window.scrollTo({
+//     top:introHeight,
+//     behavior: 'smooth'});
+//   // console.log(introHeight)
+// });
 
-document.getElementById('dress-button').addEventListener('click',function(){
-  window.scrollTo({
-    top:dressHeight,
-    behavior: 'smooth'});
-});
+// document.getElementById('dress-button').addEventListener('click',function(){
+//   window.scrollTo({
+//     top:dressHeight,
+//     behavior: 'smooth'});
+// });
 
-document.getElementById('location-button').addEventListener('click',function(){
-  window.scrollTo({
-    top:locationHeight,
-    behavior: 'smooth'});
-});
+// document.getElementById('location-button').addEventListener('click',function(){
+//   window.scrollTo({
+//     top:locationHeight,
+//     behavior: 'smooth'});
+// });
 
-/*document.getElementById('gifts-button').addEventListener('click', function() {
-  window.scrollTo({
-    top: document.body.scrollHeight,
-    behavior: 'smooth'
-  })
-});*/
+// /*document.getElementById('gifts-button').addEventListener('click', function() {
+//   window.scrollTo({
+//     top: document.body.scrollHeight,
+//     behavior: 'smooth'
+//   })
+// });*/
 
-document.getElementById('gifts-button').addEventListener('click',function(){
-  window.scrollTo({
-    top:giftsHeight,
-    behavior:'smooth'
+// document.getElementById('gifts-button').addEventListener('click',function(){
+//   window.scrollTo({
+//     top:giftsHeight,
+//     behavior:'smooth'
+//   });
+// });
+
+
+// headerbuttons.js — replace everything with this
+
+const sections = {
+  'RSVP-button':    'RSVP',
+  'dress-button':   'dress-code',
+  'location-button':'location',
+  'gifts-button':   'gifts-menu',
+};
+
+Object.entries(sections).forEach(([btnId, sectionId]) => {
+  document.getElementById(btnId).addEventListener('click', () => {
+    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 });

@@ -56,7 +56,10 @@ background-color: #575555;
 padding-top: 1rem;
 }
 
-#date-information span{color: white;}
+#date-information span{
+  color: white;
+  /* font-size: clamp(0.9rem, 2.5vw, 1.2rem); */
+}
 
 #countdown-clock{
     display: flex;
@@ -67,8 +70,11 @@ padding-top: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     background-color: #fffff4;
-    padding: 5px 1px 5px 1px;
+    padding: 3px 10px 3px 10px;
     border-radius: 0.8em;
+    font-size: clamp(1.1rem, 2vw, 1.2rem);
+  /* letter-spacing: 0.1em;
+  padding: 8px 20px; */
 }
 
 #RSVP{

@@ -9,7 +9,10 @@
     display: flex;
     justify-content: space-between;
     max-height: 45px;
-    border-bottom: 1px solid rgb(77, 31, 0);
+    border-bottom: 1px solid rgb(109, 104, 101);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 #couple-logo{
@@ -56,6 +59,7 @@
   background-color: var(--background-shadow);
   padding-top: 0.8rem;
   padding-bottom: 2rem;
+  border-bottom: 2px solid #aaaaaa; /* warm accent */
 }
 
 @media screen and (max-width: 480px) {

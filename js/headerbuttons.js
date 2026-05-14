@@ -36,9 +36,6 @@
 //   });
 // });
 
-
-// headerbuttons.js — replace everything with this
-
 const sections = {
   'RSVP-button':    'RSVP',
   'dress-button':   'dress-code',

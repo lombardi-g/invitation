@@ -1,4 +1,3 @@
-// Set the date we're counting down to
 var countDownDate = new Date("Jul 4, 2026, 16:00:00").getTime();
 
 // Update the count down every 1 second
@@ -25,6 +24,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown-clock").innerHTML = "EXPIRED";
+    document.getElementById("countdown-clock").innerHTML = " 0d ";
   }
 }, 1000);

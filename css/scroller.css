@@ -123,6 +123,12 @@
     overflow: auto;
 }
 
+#products img {
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: none; /* prevents native drag AND lets scroll handler take over */
+}
+
 ::-webkit-scrollbar {
     height: 0.6rem;
     background: var(--secondary);
